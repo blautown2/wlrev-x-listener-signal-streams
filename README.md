@@ -60,3 +60,7 @@ If a publish attempt stops at `sending`, inspect the X timeline. Use `python3 li
 ### API handoff
 
 Deliver the source and the instance configuration with its signal queries and editorial templates. The buyer supplies credentials for their own account and runs the listener under their own hosting. Keep credentials and SQLite history outside the distribution. Use one configuration and state database per account.
+
+## Original repository note
+
+x listener + signal streamer audit fred

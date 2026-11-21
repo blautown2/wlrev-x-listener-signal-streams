@@ -1,0 +1,8 @@
+{
+  "flaky-ci": [
+    {"id": "1", "author_id": "a", "minutes_ago": 8, "text": "Flaky CI is slowing our deploys"},
+    {"id": "2", "author_id": "b", "minutes_ago": 6, "text": "Flaky tests passed again on retry"},
+    {"id": "3", "author_id": "c", "minutes_ago": 4, "text": "We spent most of today chasing flaky CI"},
+    {"id": "4", "author_id": "d", "minutes_ago": 2, "text": "Flaky CI is slowing our deploys!"}
+  ]
+}

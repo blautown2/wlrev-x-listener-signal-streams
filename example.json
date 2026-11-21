@@ -1,0 +1,17 @@
+{
+  "account_id": "REPLACE_WITH_X_USER_ID",
+  "credential_prefix": "DEVTOOLS_X",
+  "poll_seconds": 300,
+  "publish": false,
+  "min_hours_between_posts": 6,
+  "rules": [
+    {
+      "id": "flaky-ci",
+      "query": "\"flaky CI\" OR \"flaky tests\"",
+      "window_minutes": 60,
+      "min_authors": 3,
+      "cooldown_hours": 24,
+      "template": "Flaky CI came up in posts from {count} accounts this hour. One thing worth tracking alongside failure rate is how often a rerun passes with zero code changes. Example: {source}"
+    }
+  ]
+}

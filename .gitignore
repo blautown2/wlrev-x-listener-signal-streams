@@ -1,0 +1,5 @@
+*.sqlite*
+__pycache__/
+.env*
+.listener-data/
+.venv/

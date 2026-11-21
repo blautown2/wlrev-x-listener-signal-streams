@@ -1,0 +1,19 @@
+{
+  "stream_id": "devtools",
+  "brand_name": "Developer Tools Brief",
+  "x_handle": "",
+  "account_email": "devtools@example.com",
+  "headless_scan": false,
+  "scroll_steps": 5,
+  "poll_seconds": 300,
+  "rules": [
+    {
+      "id": "flaky-ci",
+      "match": "\\bflaky (CI|tests?)\\b",
+      "window_minutes": 60,
+      "min_authors": 3,
+      "cooldown_hours": 24,
+      "template": "Flaky CI came up in posts from {count} accounts this hour. Track how often a rerun passes with zero code changes. Example: {source}"
+    }
+  ]
+}
